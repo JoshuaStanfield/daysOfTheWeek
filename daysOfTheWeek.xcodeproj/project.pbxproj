@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC53BA8926B6E3F7002B8DBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53BA8826B6E3F7002B8DBD /* AppDelegate.swift */; };
+		EC53BA8B26B6E3F7002B8DBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53BA8A26B6E3F7002B8DBD /* SceneDelegate.swift */; };
+		EC53BA9026B6E3F7002B8DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC53BA8E26B6E3F7002B8DBD /* Main.storyboard */; };
+		EC53BA9226B6E3FD002B8DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC53BA9126B6E3FD002B8DBD /* Assets.xcassets */; };
+		EC53BA9526B6E3FD002B8DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC53BA9326B6E3FD002B8DBD /* LaunchScreen.storyboard */; };
+		EC53BAA826B6EB09002B8DBD /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53BAA726B6EB09002B8DBD /* Day.swift */; };
+		EC53BAAA26B6F0D7002B8DBD /* DayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53BAA926B6F0D7002B8DBD /* DayController.swift */; };
+		EC53BAAC26B6FBF5002B8DBD /* DayListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53BAAB26B6FBF5002B8DBD /* DayListTableViewController.swift */; };
+		EC53BAAE26B6FC3A002B8DBD /* DayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53BAAD26B6FC3A002B8DBD /* DayDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC53BA8526B6E3F7002B8DBD /* daysOfTheWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daysOfTheWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC53BA8826B6E3F7002B8DBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC53BA8A26B6E3F7002B8DBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC53BA8F26B6E3F7002B8DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC53BA9126B6E3FD002B8DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC53BA9426B6E3FD002B8DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC53BA9626B6E3FD002B8DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC53BAA726B6EB09002B8DBD /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		EC53BAA926B6F0D7002B8DBD /* DayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayController.swift; sourceTree = "<group>"; };
+		EC53BAAB26B6FBF5002B8DBD /* DayListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayListTableViewController.swift; sourceTree = "<group>"; };
+		EC53BAAD26B6FC3A002B8DBD /* DayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC53BA8226B6E3F7002B8DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC53BA7C26B6E3F6002B8DBD = {
+			isa = PBXGroup;
+			children = (
+				EC53BA8726B6E3F7002B8DBD /* daysOfTheWeek */,
+				EC53BA8626B6E3F7002B8DBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC53BA8626B6E3F7002B8DBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC53BA8526B6E3F7002B8DBD /* daysOfTheWeek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC53BA8726B6E3F7002B8DBD /* daysOfTheWeek */ = {
+			isa = PBXGroup;
+			children = (
+				EC53BAA226B6E5C6002B8DBD /* Controllers */,
+				EC53BAA026B6E537002B8DBD /* Helper and Extension */,
+				EC53BA9F26B6E47A002B8DBD /* Models */,
+				EC53BA9E26B6E46D002B8DBD /* Views */,
+				EC53BA9C26B6E427002B8DBD /* Resources */,
+			);
+			path = daysOfTheWeek;
+			sourceTree = "<group>";
+		};
+		EC53BA9C26B6E427002B8DBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC53BA8826B6E3F7002B8DBD /* AppDelegate.swift */,
+				EC53BA8A26B6E3F7002B8DBD /* SceneDelegate.swift */,
+				EC53BA9126B6E3FD002B8DBD /* Assets.xcassets */,
+				EC53BA9626B6E3FD002B8DBD /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC53BA9D26B6E458002B8DBD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EC53BA8E26B6E3F7002B8DBD /* Main.storyboard */,
+				EC53BA9326B6E3FD002B8DBD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EC53BA9E26B6E46D002B8DBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC53BAA126B6E5AB002B8DBD /* Custom Views */,
+				EC53BA9D26B6E458002B8DBD /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC53BA9F26B6E47A002B8DBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC53BAA726B6EB09002B8DBD /* Day.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC53BAA026B6E537002B8DBD /* Helper and Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Helper and Extension";
+			sourceTree = "<group>";
+		};
+		EC53BAA126B6E5AB002B8DBD /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		EC53BAA226B6E5C6002B8DBD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC53BAA426B6E5F3002B8DBD /* Model Controllers */,
+				EC53BAA326B6E5E1002B8DBD /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EC53BAA326B6E5E1002B8DBD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC53BAAB26B6FBF5002B8DBD /* DayListTableViewController.swift */,
+				EC53BAAD26B6FC3A002B8DBD /* DayDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EC53BAA426B6E5F3002B8DBD /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC53BAA926B6F0D7002B8DBD /* DayController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC53BA8426B6E3F7002B8DBD /* daysOfTheWeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC53BA9926B6E3FD002B8DBD /* Build configuration list for PBXNativeTarget "daysOfTheWeek" */;
+			buildPhases = (
+				EC53BA8126B6E3F7002B8DBD /* Sources */,
+				EC53BA8226B6E3F7002B8DBD /* Frameworks */,
+				EC53BA8326B6E3F7002B8DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = daysOfTheWeek;
+			productName = daysOfTheWeek;
+			productReference = EC53BA8526B6E3F7002B8DBD /* daysOfTheWeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC53BA7D26B6E3F6002B8DBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EC53BA8426B6E3F7002B8DBD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = EC53BA8026B6E3F6002B8DBD /* Build configuration list for PBXProject "daysOfTheWeek" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC53BA7C26B6E3F6002B8DBD;
+			productRefGroup = EC53BA8626B6E3F7002B8DBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC53BA8426B6E3F7002B8DBD /* daysOfTheWeek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC53BA8326B6E3F7002B8DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC53BA9526B6E3FD002B8DBD /* LaunchScreen.storyboard in Resources */,
+				EC53BA9226B6E3FD002B8DBD /* Assets.xcassets in Resources */,
+				EC53BA9026B6E3F7002B8DBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC53BA8126B6E3F7002B8DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC53BAAE26B6FC3A002B8DBD /* DayDetailViewController.swift in Sources */,
+				EC53BAAA26B6F0D7002B8DBD /* DayController.swift in Sources */,
+				EC53BA8926B6E3F7002B8DBD /* AppDelegate.swift in Sources */,
+				EC53BA8B26B6E3F7002B8DBD /* SceneDelegate.swift in Sources */,
+				EC53BAA826B6EB09002B8DBD /* Day.swift in Sources */,
+				EC53BAAC26B6FBF5002B8DBD /* DayListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC53BA8E26B6E3F7002B8DBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC53BA8F26B6E3F7002B8DBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC53BA9326B6E3FD002B8DBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC53BA9426B6E3FD002B8DBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC53BA9726B6E3FD002B8DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC53BA9826B6E3FD002B8DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC53BA9A26B6E3FD002B8DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY5XU52M3S;
+				INFOPLIST_FILE = daysOfTheWeek/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoshStanfield.daysOfTheWeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC53BA9B26B6E3FD002B8DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY5XU52M3S;
+				INFOPLIST_FILE = daysOfTheWeek/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoshStanfield.daysOfTheWeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC53BA8026B6E3F6002B8DBD /* Build configuration list for PBXProject "daysOfTheWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC53BA9726B6E3FD002B8DBD /* Debug */,
+				EC53BA9826B6E3FD002B8DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC53BA9926B6E3FD002B8DBD /* Build configuration list for PBXNativeTarget "daysOfTheWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC53BA9A26B6E3FD002B8DBD /* Debug */,
+				EC53BA9B26B6E3FD002B8DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC53BA7D26B6E3F6002B8DBD /* Project object */;
+}
