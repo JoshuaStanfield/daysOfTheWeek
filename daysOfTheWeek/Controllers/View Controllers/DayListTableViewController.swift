@@ -14,6 +14,7 @@ class DayListTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("View Did load")
 
     }
 
